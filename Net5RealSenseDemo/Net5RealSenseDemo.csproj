@@ -17,9 +17,6 @@
     <None Update="native_dll\realsense2.dll" Link="%(Filename)%(Extension)">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="native_dll\realsense2.pdb" Link="%(Filename)%(Extension)">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
 
 </Project>
